@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\User\\Desktop\\8-dars-trafalgar-hikmatulloh\\trafalgar\\fonts"
+		}
+	],
+	"settings": {
+		"files.autoSave": "onWindowChange",
+		"liveServer.settings.multiRootWorkspaceName": "trofalgar"
+	}
+}

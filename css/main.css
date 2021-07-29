@@ -1,0 +1,459 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../fonts/mulish-v3-latin-regular.woff2') format('woff2'),
+  url('../fonts/mulish-v3-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+  url('../fonts/mulish-v3-latin-300.woff2') format('woff2'),
+  url('../fonts/mulish-v3-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+  url('../fonts/mulish-v3-latin-600.woff2') format('woff2'),
+  url('../fonts/mulish-v3-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../fonts/mulish-v3-latin-700.woff2') format('woff2'), 
+  url('../fonts/mulish-v3-latin-700.woff') format('woff');
+}
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(41, 47, 57);
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-big{
+  width: 1300px;
+}
+
+/* Header */
+
+.page-header .container {
+  padding-top: 135px;
+  padding-bottom: 112px;
+  
+}
+
+.header-logo {
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.nav {
+  width: 550px;
+  display: inline-block;
+  margin-left: 506px;
+  
+  
+}
+
+.nav-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item{
+  display: flex;
+  
+}
+
+.nav-item + .nav-item{
+  margin-left: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(41, 47, 57, 0.5);
+  
+  
+}
+
+.nav-item-active .nav-link{
+  color: rgb(41, 47, 57);
+}
+/* =======hero======= */
+
+.hero{
+  margin-bottom: 170px;
+  background-image: url('../img/elementkichkina.png' ) ;
+  background-repeat: no-repeat;
+  background-position:   calc(50% + 500px) top 0;
+  /* background-size: 135px  115px ; */
+}
+.hero-inner{
+  display: flex;
+  align-items: center;
+}
+
+.hero-info{
+  display: inline-block;
+  
+  width: 445px;
+  margin-right:40px ;
+}
+.heading-hero{
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 25px
+}
+.hero-heading{
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 40px
+}
+.hero-paragrapg{
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+.hero-link{
+  display: block;
+  text-align: center;
+  background-color:#458FF6;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  width: 200px; 
+}
+
+/* =====our services====== */
+
+.service{
+  margin-bottom: 163px;
+  
+}
+.service .container{
+  width: 1260px;
+  background-image: url('../img/qiyshiqrasm.png'),url('../img/element.png');
+  background-repeat: no-repeat;
+  font-size: 808px 541px, 115px 100px;
+  background-position: calc(50% - 500px) center, left calc(50% + 500px) top 55%;
+}
+.our-heading{
+  margin-top: 0;
+  margin-bottom: 26px;
+  text-align: center;
+  font-size: 36px;
+}
+.services-line{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 33px;
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  
+}
+.our-paragraph{
+  margin: 0 auto;
+  width: 952px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.our-services{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: -11px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.service-list{
+  background-color: #fff;
+  width: 350px;
+  padding-top: 58px;
+  padding-right:52px;
+  padding-bottom: 48px;
+  margin: 11px;
+  padding-left: 32px;
+  border-radius: 12px;
+  box-shadow: 10px 40px 40px rgba(229, 233, 246, 0.4);
+}
+.services-link{
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color:#458FF6;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ========leading======== */
+
+
+
+.list-1 {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 150px;
+}
+.list-two {
+  margin: 20px;
+  width: 400px;
+}
+.list-paragraf{
+  margin-bottom: 26px;
+  font-size: 35px;
+}
+.leading-span{
+  display: block;
+  margin-bottom: 33px;
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  
+}
+.leading-list{
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.Learn-more{
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  color:#458FF6;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  padding: 15px;
+  text-align: center;
+  
+}
+.logo{
+  margin-left: 10px;
+}
+
+
+/* ==========Edword======== */
+
+.edword{
+  background-color: #458FF6;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 40px;
+  
+}
+.edword-text{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-family: cursive;
+}
+.leading-span{
+  display: block;
+  margin-bottom: 33px;
+  width: 56px;
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  margin: 0 auto;
+  background-color: rgb(243, 243, 243);  
+}
+.leading-div{
+  display: flex;
+  
+}
+.group{
+  display: flex;
+  
+}
+.edword-img{
+  
+  margin-bottom: 91px;
+  margin-left: 43px;
+}
+.edword-h3{
+  width: 189px;
+  height: 70px;
+  margin-left: 24px;
+  margin-top: 20px;
+  color: white;
+  font-size: 22px;
+}
+blockquote{
+  width:420px;
+  height: 120px;
+  margin-left: 260px;
+  font-size: 22px;
+  color: #fff;
+}
+
+/* =======icon======= */
+
+.icon{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.icon-img{
+  margin: 0 15px;
+}
+/* ========doktor img======= */
+
+
+.section-doktor{
+  background-image: url('../img/vectorunga.png'),url('../img/element.png');
+  background-repeat: no-repeat;
+  font-size: 938px 671px 135px 115px;
+  background-position: calc(50% + 500px) center, right calc(55% + 500px) top 15%;
+}
+
+
+.doktor-img{
+  background-color: #fff;
+  margin: 30px;
+  width: 350px;
+  height: 512px;
+  box-shadow: 10px 40px 40px rgba(229, 233, 246, 0.4);
+}
+
+
+.text{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.doktor-span{
+  display: block;
+  margin: 0 auto;
+  width: 56px;
+  height: 3px;
+  background-color: black; 
+  margin-bottom: 40px;
+}
+.doktor-phon{
+  margin-bottom: 22px;
+}
+.doktor-h3{
+  width: 251px;
+  height: 64px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding: 12px 25px;
+  
+}
+.doktor-paragrf{
+  width: 266px;
+  height: 82px;
+  margin-top: 0;
+  margin-bottom:25px ;
+  padding: 12px 25px;
+}
+.link{
+  padding: 12px 25px;
+  color: #94BCF4;
+  width: 266px;
+  text-decoration: none;
+  
+}
+.link-icon{
+  margin-left: 13px;
+}
+.ota-div{
+  display: flex;
+  
+}
+
+
+/* ==========footer======== */
+
+.section-link{
+  background-image: url('../img/elementkichkina.png');
+  background-repeat: no-repeat;
+  background-position:right 20px top 20px ;
+}
+
+
+.footer-list {
+  display: flex;
+  width: 1260px;
+  height: 400px;
+  background-color: #61b0f2;
+  margin-right: 120px;
+  background-image: url('../img/element.png');
+  background-repeat: no-repeat;
+  background-position:bottom left ;
+}
+.logo-footer {
+  margin-top: 15px;
+}
+.footer-list-item {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-right: auto;
+  list-style: none;
+}
+.footer-p {
+  width: 330px;
+  line-height: 30px;
+}
+.footer-trafalgar {
+  margin-top: 80px;
+  margin-left: 130px;
+  color: white;
+}
+.footer-item {
+  color: white;
+  width: 200px;
+  line-height: 23px;
+  margin-left: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+  list-style: none;
+}
+.item {
+  padding: 6px;
+}
