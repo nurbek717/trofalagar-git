@@ -9,6 +9,7 @@
 	],
 	"settings": {
 		"files.autoSave": "onWindowChange",
-		"liveServer.settings.multiRootWorkspaceName": "trofalgar"
+		"liveServer.settings.multiRootWorkspaceName": "trofalgar",
+		"liveServer.settings.port": 5501
 	}
 }

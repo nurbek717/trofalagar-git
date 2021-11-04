@@ -69,6 +69,8 @@ img {
 /* Header */
 
 .page-header .container {
+  display: flex;
+  align-items: center;
   padding-top: 135px;
   padding-bottom: 112px;
   
